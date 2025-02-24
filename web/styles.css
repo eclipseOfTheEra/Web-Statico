@@ -1,0 +1,446 @@
+@font-face {
+  font-family: "HermeneusOne";
+  src: url('/fonts/HermeneusOne-Regular.ttf');
+  font-weight: 400
+}
+
+@font-face {
+  font-family: "HelveticaNeue-Light";
+  src: url('/fonts/HelveticaNeue-Light.otf');
+  
+}
+
+
+/* General styles */
+body {
+  font-family:  HelveticaNeue-Light;
+  background-color: #0B0B0B;
+  color: white;
+  margin: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+hr{
+  margin-top: 40px;
+  color: #838383;
+}
+
+.btn {
+  font-size: 22px;
+  width: 165px;
+  height: 50px;
+  background: #151515;
+  color: #ffffff;
+  border: solid;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s;
+  border-color: #ffffff;
+  font-weight: bold;
+
+}
+
+.btn:hover {
+  
+  
+  background: #ffffff;
+  color: #000000;
+  border: solid;
+  
+  border-color: #000000;
+
+  
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header section */
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header {
+  padding: 25px 0;
+
+
+}
+
+.header_nav {}
+
+.header_list {
+  display: flex;
+  gap: 30px;
+  
+
+
+}
+
+.a_nav {
+  color: #ffffff;
+  font-size: 20px;
+  transition: opacity 0.3s;
+}
+
+.a_nav:hover {
+  opacity: 0.6;
+}
+
+/* Welcome section */
+
+.main {}
+
+.welcome {
+
+  /* padding: 370px 0;     */
+  padding: 240px 0;
+  background-image: url('/pics/БИРКА\ STATICO.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.welcome_subtitle {
+  margin-top: -100px;
+  font-family: Helvetica;
+  font-size: 30px;
+  color: #0B0B0B;
+  font-weight: 600;
+  letter-spacing: 0.0em;
+
+}
+
+
+/* Marketing section */
+
+.marketing {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+}
+.img_cont_{
+  margin-top: -11px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: #292929;
+  opacity: 85%;
+}
+.marketing_block {
+  width: 350px;
+  height: 200px;
+  background: #151515;
+  color: #ffffff;
+  border: solid;
+  border-radius: 20px;
+  border-width: 2px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-color: #838383;
+  flex-wrap: wrap;
+  
+
+  
+}
+
+.marketing_block_top {
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+}
+
+.marketing_block_text_top{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.marketing_block_bot {
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.marketing_block_bot_r_text {
+  display: flex;
+  align-items: flex-end;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.marketing_block_bot_l_text {
+  font-size: 14px;
+  text-align: right;
+  opacity: 0.8;
+}
+
+
+/* Section about */
+
+.cont_about_lyr{
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+   margin-left: auto;
+    margin-right: auto;
+  align-items: center;
+  
+  max-width: 500px;
+}
+.about_lyr {
+  font-size: 28px;
+  font-weight: 600;
+}
+.about_lyr_disc {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+.about {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  gap: 33px;
+}
+.container {
+}
+.about_list {
+  
+  width: 350px;
+  height: auto;
+  background: #151515;
+  color: #ffffff;
+  border: solid;
+  border-radius: 20px;
+  border-width: 1px;
+  padding: 15px;
+  border-color: #838383;
+  border-width: 2px;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  
+
+}
+.img_about {
+  max-width: 100%;
+  object-fit: cover;
+}
+.abot_list_title {
+}
+.about_list_description {
+  max-width: 285px;
+  text-align: center;
+  line-height: 1.3;
+  font-weight: 200;
+  opacity: 0.8;
+}
+
+
+
+/* Section katalog */
+
+.katalog {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.katalog_lyr{
+  margin-top: 65px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.katalog_1{
+  display: flex;
+  margin-top: 35px;
+  gap: 35px;
+}
+.katalog_block {
+  width: 600px;
+  height: 220px;
+  background: #151515;
+  color: #ffffff;
+  border: solid;
+  border-radius: 20px;
+  border-width: 4px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-color: #838383;
+
+  
+}
+.katalog_block_top {
+    display: flex;
+    justify-content: space-between;
+
+}
+.katalog_img {
+  width: 75px;
+  background-color: white;
+  border-radius: 20px;
+  border-width: 30px;
+  border-color: white;
+  padding: 4px;
+  background-color:#292929 ;
+  opacity: 85%;
+
+}
+.katalog_block_top_text {
+  font-size: 24px;
+  font-weight: 600;
+}
+.katalog_block_text_bot {
+  max-width: 320px;
+  line-height: 1.3;
+  font-size: 16px;
+  text-align: left;
+  opacity: 0.8;
+}
+.katalog_lyr_txt{
+  
+  margin-top: 65px;
+  text-align: center;
+  font-size: 22px;
+  
+}
+
+/* Section Katalog*/
+
+.us {
+
+
+}
+.us_lyr {
+  margin-top: 65px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.us_block_sec {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+
+ 
+}
+.us_block {
+  width: 300px;
+  height: auto;
+  border: solid;
+  border-radius: 20px;
+  border-width: 2px;
+  padding: 15px;
+  border-color: #838383;
+
+  background-color: #151515;
+  
+}
+.us_block_top {
+  
+  
+}
+
+
+.us_img {
+  width: 260px;
+  border-radius: 15px;
+}
+.us_block_top_text {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  
+}
+.usblock_bot {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.us_block_bot_text {
+  margin-top: 7px;
+  opacity: 0.8;
+  
+  
+}
+.us_block_price {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 600;
+  
+}
+.hr_{
+  margin-top: 20px;
+  
+}
+
+
+/* example Section */
+
+
+.examples {
+
+}
+.examples_lyr {
+  margin-top: 65px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+}
+.block_example {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.img_example {
+  width: 555px;
+
+}
+
+@media(max-width:1150px){
+  
+}
